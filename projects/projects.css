@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+#project_form{
+  width: 300px;
+  margin-top: 100px;
+  margin: auto;
+  background-color: #343434;
+  padding: 10px;
+  flex-direction: column;
+  text-align: center;
+}
+input{
+  margin-top: 10px;
+  padding: 5px;
+  text-decoration-color: #343434;
+}
+#submit_button{
+  background-color: #CDCDCD;
+  border: none;
+  text-align: center;
+  text-decoration-color: #343434;
+}
+#projects_table{
+  width: 100%;
+  margin-top: 10px;
+}
+thead tr th{
+  background-color: #CDCDCD;
+}
+.project_id{
+  text-align: center;
+}
+
+.project_title{
+  text-align: center;
+}
+.project_entries{
+  text-align: center;
+}
+.project_delete{
+  text-align: center;
+}
+tbody tr td{
+  border-bottom: 1px solid #CDCDCD;
+  padding: 5px;
+}
+#new_project_button{
+  margin: auto;
+  font-size: 28px;
+  padding: 10px;
+  background-color: #009900;
+  border: none;
+  text-decoration: none;
+  color: black;
+}
+
+#new_project_button:hover{
+  opacity: 80%;
+}
+.creatForm{
+  display:block;
+}
+.hidForm{
+  display:none;
+}

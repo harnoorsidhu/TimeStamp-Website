@@ -1,0 +1,32 @@
+#reports_filter_form{
+margin-top: 0;
+padding-top: 0;
+background-color: #CDCDCD;
+color: #343434;
+width: 100%;
+font-size: 14px;
+}
+#reports_filter_form label{
+padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+#reports_filter_form select{
+padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#results{
+width: 100%;
+
+
+}
+table th{
+
+  background-color: #CDCDCD;
+}
+tbody tr td{
+  border-bottom: 1px solid #CDCDCD;
+  margin: 5px;
+}
